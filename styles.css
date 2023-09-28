@@ -1,3 +1,4 @@
+/*scroll animation is smooth but wraping it around this makes it slower*/
 @media (prefers-reduced-motion: no-preference) {
     * {
       scroll-behavior: smooth;
@@ -40,7 +41,7 @@
     max-width: 300px;
     height: 50px;
   }
-  
+  /*selecting the unorderd list on nav*/
   nav > ul {
     display: flex;
     justify-content: space-evenly;
@@ -57,13 +58,13 @@
     padding: 0.2rem;
     display: block;
   }
-  
+  /*cursor becomes pointer when hovers over the list on nav*/
   nav > ul > li:hover {
     background-color: #dfdfe2;
     color: #1b1b32;
     cursor: pointer;
   }
-  
+  /*add comment*/
   li > a {
     color: inherit;
     text-decoration: none;
@@ -102,7 +103,7 @@
   input {
     font-size: 16px;
   }
-  
+  /*lines these things up*/
   .info label, .info input {
     display: inline-block;
   }
