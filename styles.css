@@ -79,7 +79,7 @@
     margin: 0 auto 10px auto;
     max-width: 600px;
   }
-  
+  /*if verdana is unavaible, Tahoma font is the replacement*/
   h1,
   h2 {
     font-family: Verdana, Tahoma;
