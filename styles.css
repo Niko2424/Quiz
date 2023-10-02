@@ -103,7 +103,7 @@
   input {
     font-size: 16px;
   }
-  /*lines these things up*/
+  /*inlines these things up*/
   .info label, .info input {
     display: inline-block;
   }
