@@ -132,7 +132,7 @@
     padding-left: 15px;
     font-size: 20px;
   }
-  /*add comment*/
+  /*before paragraph peseudo, explain "Question #" does*/
   p::before {
     content: "Question #";
   }
