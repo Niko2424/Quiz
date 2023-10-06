@@ -132,7 +132,7 @@
     padding-left: 15px;
     font-size: 20px;
   }
-  /*before paragraph peseudo, explain "Question #" does*/
+  /*before paragraph the string "Question #" is inserted in this case*/
   p::before {
     content: "Question #";
   }
